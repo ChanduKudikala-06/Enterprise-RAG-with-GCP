@@ -42,4 +42,4 @@ class Settings:
     os.environ["LANGSMITH_PROJECT"] = LANGSMITH_PROJECT
     os.environ["LANGSMITH_ENDPOINT"] = LANGSMITH_ENDPOINT
 
-    settings = Settings()
+settings = Settings()
