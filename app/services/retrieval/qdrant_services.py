@@ -12,7 +12,7 @@ client=QdrantClient(
 )
 
 #Enterprise retrieveal with top 8 chunks
-def search_enterprise_knowledge(query:str,limit:int 8):
+def search_enterprise_knowledge(query: str,limit: int=8):
     
     #query_points is the modern standard to fetch data from qdrant
     
